@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+
+  golang:
+    build:
+      context: golang
+    volumes:
+      - ./golang/:/app/
+
+  typescript:
+    build:
+      context: typescript
+    volumes:
+      - ./typescript/package.json:/app/package.json
+      - ./typescript/yarn.lock:/app/yarn.lock
+      - ./typescript/webpack.config.js:/app/webpack.config.js
+      - ./typescript/babel.config.js:/app/babel.config.js
+      - ./typescript/tsconfig.json:/app/tsconfig.json
+      - ./typescript/jest.config.js:/app/jest.config.js
+      - ./typescript/.eslintrc.json:/app/.eslintrc.json
+      - ./typescript/.prettierrc.json:/app/.prettierrc.json
+      - ./typescript/.prettierignore:/app/.prettierignore
+      - ./typescript/src:/app/src
+      - ./typescript/index.html:/app/index.html
+    ports:
+      - 8080:8080
+    command: [yarn, dev]
