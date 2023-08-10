@@ -1,4 +1,4 @@
-# はてなリモートインターンシップ2022事前課題
+# はてなリモートインターンシップ2023事前課題
 
 インターン前半のパートではGoとTypeScriptを用いたWebアプリケーション開発を行います。
 
@@ -15,7 +15,7 @@ GoとTypeScriptの課題があります。それぞれのディレクトリのRE
 
 ## 課題の進め方
 
-課題はGitHub上で取り組んでください。[hatena/Hatena-Intern-Exercise-2022](https://github.com/hatena/Hatena-Intern-Exercise-2022) リポジトリを[テンプレートとして](https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template) 、自分のリポジトリを作って取り組んでください。
+課題はGitHub上で取り組んでください。[hatena/Hatena-Intern-Exercise-2023](https://github.com/hatena/Hatena-Intern-Exercise-2023) リポジトリを[テンプレートとして](https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template) 、自分のリポジトリを作って取り組んでください。
 
 GitHub Actionsでテストを実行するようにしています。参考にしてください。
 
