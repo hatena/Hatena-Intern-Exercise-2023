@@ -1,8 +1,10 @@
 name: TypeScript
 on:
   push:
-    paths:
-      - typescript/**
+    branches:
+      - '2023'
+#    paths:
+#      - typescript/**
 jobs:
   test:
     runs-on: ubuntu-latest

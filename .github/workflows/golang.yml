@@ -1,8 +1,10 @@
 name: Golang
 on:
   push:
-    paths:
-      - golang/**
+    branches:
+      - '2023'
+#    paths:
+#      - golang/**
 jobs:
   test:
     runs-on: ubuntu-latest
