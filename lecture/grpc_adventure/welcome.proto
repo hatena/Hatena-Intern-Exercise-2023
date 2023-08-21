@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "./pb";
+
+package welcome;
+
+service Welcome {
+    rpc Greet (GreetRequest) returns (GreetReply);
+}
+
+message GreetRequest {
+    string name = 1;
+}
+
+message GreetReply {
+    string message = 1;
+}
